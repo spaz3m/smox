@@ -13,10 +13,10 @@ $discord_code = $_GET['code'];
 
 $payload = [
     'code'=>$discord_code,
-    'client_id'=>'YOUR_CLIENT_ID_GOES_HERE',
-    'client_secret'=>'YOUR_CLIENT_SECRET_GOES_HERE',
+    'client_id'=>'934506964371800084',
+    'client_secret'=>'37iGN2oceTRWeyBICXQo7JNkU1opz3BD',
     'grant_type'=>'authorization_code',
-    'redirect_uri'=>'http://localhost/PROJECT_DIRECTORY/src/process-oauth.php',
+    'redirect_uri'=>'http://smox.lol/src/process-oauth.php',
     'scope'=>'identify%20guids',
 ];
 
